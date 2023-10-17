@@ -5,7 +5,7 @@ function Footer(){
     return(
         <div className="footer">
             <img src={logoFooter} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellat itaque officia hic laudantium facere veniam quo, alias laborum repellendus unde vel eius asperiores optio odit reprehenderit accusamus commodi consectetur.</p>
+            <p>Unidos pelo bem-estar animal, transformando vidas de quatro patas. ONG Me Adota Pô! - Juntos, fazemos a diferença.</p>
         </div>
     )
 }
