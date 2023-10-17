@@ -16,8 +16,7 @@ function Contato(){
                 <div className="cont">
                     <FaPhone/>
                     <h4>Nossos Telefones</h4>
-                    <p>(81)91114444</p>
-                    <p>(81)33222777</p>
+                    <p>(81)98220-9163</p>
                 </div>
                 <div className="cont">
                     <FaEnvelope/> 
