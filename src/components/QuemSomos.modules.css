@@ -1,0 +1,74 @@
+body {
+    background-color: #D2CFCF;
+
+}
+.container_QS {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.container_QS img {
+    position: relative;
+    left: 15rem;
+}
+.container_QS h1 {
+    color: white;
+}
+.titulo_qs {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+.texto_quemsomos {
+    font-size: 20px;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    background-color: #929191;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 16rem;
+    border-radius: 30px;
+    padding: 20px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    color: white;
+}
+
+
+.quemSomos {
+    border-bottom: 16px solid #929191;
+}
+
+.btn_top svg{
+    display: flex;
+    font-size: 70px;
+    z-index: 1;
+    bottom: 50px;
+    right: 70px;
+    position: fixed;
+    cursor: pointer;
+    color: rgba(37, 57, 237, 0.5);
+}
+
+.btn_top svg:hover {
+    color: rgba(0, 26, 255, 0.693);
+}
+
+@media (max-width: 1023px){
+    .container_QS img {
+        display: none;
+    }
+    .texto_quemsomos {
+        position: static;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .btn_top svg {
+        bottom: 50px;
+        right: 45%;
+    }
+}

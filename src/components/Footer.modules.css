@@ -1,0 +1,14 @@
+.footer {
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer p {
+    width: 450px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.603);
+}

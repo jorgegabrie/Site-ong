@@ -1,0 +1,56 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.figura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.figura .imagem_celular {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+
+.figura .imagem_app {
+    position: absolute;
+    width: 230px;
+    height: 478px;
+    opacity: .8;
+    border-radius: 20px;
+    
+    
+}
+
+.textos_app {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width:768px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .figura .imagem_celular {
+        width: 320px;
+        height: 300px;
+    }
+    .figura .imagem_app {
+        width: 125px;
+        height: 245px;
+    }
+}
+
+

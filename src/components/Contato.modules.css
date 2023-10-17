@@ -1,0 +1,50 @@
+.sec_cont {
+    padding-top: 4rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(37, 57, 237, 0.5);;
+
+}
+.sec_cont h1 {
+    font-size: 50px;
+    color: white;
+    
+}
+
+.contatos {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: 20px;
+    padding-bottom: 5rem;
+}
+
+.cont {
+    width: 300px;
+}
+
+.cont h4 {
+    font-size: 25px;
+}
+.cont p {
+    font-size: 20px;
+}
+
+.cont svg {
+    font-size: 70px;
+}
+.cont a {
+    list-style-type: none;
+    font-style: italic;
+    color: rgb(0, 0, 255);
+}
+
+@media (max-width:768px){
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

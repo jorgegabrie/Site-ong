@@ -1,0 +1,41 @@
+.slides_image {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    position: relative;
+}
+.container_baner {
+    border-bottom: 16px solid #929191;
+}
+
+.texto {
+    width: 500px;
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+    color: white;
+    background-color: #00000052;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.texto h1 {
+    font-size: 4rem;
+}
+.texto p {
+    font-size: 25px;
+}
+
+@media (max-width:670px){
+    .texto {
+        top: 1rem;
+        left: 1rem;
+        width: 300px;
+    }
+    .texto h1 {
+        font-size: 3rem;
+    }
+    .texto p {
+        font-size: 20px;
+    }
+}
