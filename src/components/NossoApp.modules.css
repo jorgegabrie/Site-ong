@@ -29,12 +29,19 @@
     
     
 }
+.imgQr {
+    width: 200px;
+    height: 200px;
+   
+}
 
 .textos_app {
     max-width: 500px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:768px){
