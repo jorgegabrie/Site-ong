@@ -8,7 +8,7 @@ function QueroAjudar(){
                 <div className="card">
                     <h3>PIX</h3>
                     <p>Sua doação via PIX ajudará a fornecer alimento, medicamentos, abrigo e cuidados essenciais para os animais em necessidade. Além disso, você estará contribuindo para uma sociedade mais consciente e compassiva em relação aos nossos amigos peludos, emplumados e escamosos. 
-                       <br /> CHAVE PIX : 11111111111
+                       <br /> CHAVE PIX : 22.055.400/0001-37
                     </p>
                 </div>
                 <div className="card">
