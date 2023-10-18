@@ -1,6 +1,6 @@
 import foto_celular from '../assets/celular1.png'
 import foto_app from '../assets/imagemApp.jpeg'
-import foto_qr from '../assets/grcode-app.jpeg'
+import foto_qr from '../assets/qr-atualizado.jpeg'
 
 
 import "./NossoApp.modules.css"
