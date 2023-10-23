@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-@media (max-width:768px){
+@media (max-width:877px){
     .container {
         display: flex;
         flex-direction: column;
